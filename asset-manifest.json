@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/NormanPen.github.io/static/css/main.073c9b0a.css",
-    "main.js": "/NormanPen.github.io/static/js/main.d1e858ec.js",
-    "static/js/787.de2ca23e.chunk.js": "/NormanPen.github.io/static/js/787.de2ca23e.chunk.js",
-    "static/media/logo.svg": "/NormanPen.github.io/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/NormanPen.github.io/index.html",
-    "main.073c9b0a.css.map": "/NormanPen.github.io/static/css/main.073c9b0a.css.map",
-    "main.d1e858ec.js.map": "/NormanPen.github.io/static/js/main.d1e858ec.js.map",
-    "787.de2ca23e.chunk.js.map": "/NormanPen.github.io/static/js/787.de2ca23e.chunk.js.map"
+    "main.css": "/static/css/main.073c9b0a.css",
+    "main.js": "/static/js/main.2d1bdf8c.js",
+    "static/js/787.de2ca23e.chunk.js": "/static/js/787.de2ca23e.chunk.js",
+    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/index.html",
+    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
+    "main.2d1bdf8c.js.map": "/static/js/main.2d1bdf8c.js.map",
+    "787.de2ca23e.chunk.js.map": "/static/js/787.de2ca23e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.d1e858ec.js"
+    "static/js/main.2d1bdf8c.js"
   ]
 }
