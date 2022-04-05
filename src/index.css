@@ -1,3 +1,14 @@
 @tailwind base;
+@import "./css/animations.css";
 @tailwind components;
 @tailwind utilities;
+
+html,
+body {
+    position:relative;
+    overflow-x:hidden;
+}
+
+.test {
+    overflow-y: hidden;
+}

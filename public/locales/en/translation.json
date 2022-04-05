@@ -1,0 +1,31 @@
+{
+    "description": {
+      "part1": "Edit <1>src/App.js</1> and save to reload.",
+      "part2": "Learn React"
+    },
+    "about": {
+      "text1": "About me",
+      "text2": "Moin, I am a web developer from Hamburg, the pearl of Germany.",
+      "text3": "Ever since I first heard the beeping sound of a 56k modem, I was fascinated by the internet. I created my first website when I was 14 and computer science was my favourite subject next to art. What fascinates me about programming is that as a developer you always learn something new and solve complex problems in a team.",
+      "text4": "In my free time, I like to put on my Nikes and go running. I also like going to concerts and festivals."
+    },
+    "skills": {
+      "heading": "Skills",
+      "text1": "'Swearing is the only language that every programmer knows.'"
+    },
+    "contact": {
+      "heading": "Contact",
+      "text1": "If you are curious, please contact me."
+    },
+    "social": {
+      "heading": "Social"
+    },
+    "counter": "Changed language just once",
+    "counter_plural": "Changed language already {{count}} times",
+    "footer": {
+      "date": "Today is {{date, DATE_HUGE}}",
+      "date_morning": "Good morning! Today is {{date, DATE_HUGE}} | Have a nice day!",
+      "date_afternoon": "Good afternoon! It's {{date, DATE_HUGE}}",
+      "date_evening": "Good evening! Today was the {{date, DATE_HUGE}}"
+    }
+  }
