@@ -1,0 +1,177 @@
+.btn {
+    @apply bg-red-500
+}
+
+.waves {
+    position: relative;
+    width: 100%;
+    height: 120px;
+    overflow: hidden;
+}
+.waves .thinking {
+    position: absolute;
+
+    bottom: 10px;
+    right: 20px;
+    z-index: 100000;
+}
+
+.waves .wave {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100px;
+    background: url('/src/media/images/waves.png');
+    background-size: 1000px 100px;
+
+}
+
+.waves .wave.wave1 {
+    animation: animate 30s linear infinite;
+    z-index: 20;
+    opacity: 0,5;
+    animation-delay: .5s;
+    bottom: 10px;
+}
+.waves .wave.wave2 {
+    animation: animate2 15s linear infinite;
+    z-index: 20;
+    opacity: 0.5;
+    animation-delay: -5s;
+    bottom: 10px;
+}
+.waves .wave.wave3 {
+    animation: animate 30s linear infinite;
+    z-index: 20;
+    opacity: 0.2;
+    animation-delay: -2s;
+    bottom: 15px;
+}
+.waves .wave.wave4 {
+    animation: animate2 30s linear infinite;
+    z-index: 20;
+    opacity: 0.7;
+    animation-delay: -5s;
+    bottom: 20px;
+}
+@keyframes animate {
+    0%{
+        background-position-x: 0 ;
+    }
+    100%{
+        background-position-x: 1000px;
+    }
+}
+@keyframes animate2 {
+    0%{
+        background-position-x: 0 ;
+    }
+    100%{
+        background-position-x: -1000px;
+    }
+}
+
+/* Burger animation */
+
+.burger-line {
+    height: 3px;
+    background: black;
+    margin-bottom: 7px;
+    transition: all 0.4s ease; /* important for animation */
+}
+
+.burger-item {
+    width: 34px;
+    cursor: pointer;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100000000;
+}
+
+.burger-item.active .burger-line:last-child {
+    opacity: 0;
+}
+.burger-item.active .burger-line:first-child {
+    transform: rotate(45deg) translate(7px, 7px);
+}
+.burger-item.active .burger-line:nth-child(2) {
+    transform: rotate(-45deg);
+}
+
+/* Menu animation */
+
+.menu {
+    position: absolute;
+    z-index: 300;
+    top: 10px;
+    right: 10px;
+    transition: all 0.4s ease;
+
+}
+.menu.active {
+    transform: scale(20);
+
+}
+
+.menud {
+    position: absolute;
+    z-index: 400;
+    top: 10px;
+    left: 10px;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+}
+.menu.active {
+    transform: scale(20);
+    width: 100px;
+    height: 100px;
+}
+
+
+.menu-bg {
+    position: fixed;
+    z-index: 100;
+    bottom: 10px;
+    right: 10px;
+    background-color: black;
+    height: 100000px;
+    width: 100000px;
+
+
+}
+.menu-bg:active {
+    width: 100px;
+    height: 100px;
+}
+
+.nav {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1500;
+
+
+    display: none;
+    width: 100%;
+}
+
+.menu-list {
+    position: absolute;
+    top: 50%;
+    left:50%;
+    z-index: 400;
+
+
+}
+
+.zzz {
+    z-index: 800;
+}
+
+/*Circle Background Nav*/
+
+
